@@ -13,3 +13,7 @@ This repo contains all of the code which supports the current system, with the e
 The script `listener.py` in the `pi` directory runs as a scheduled task. It checks switch states and uploads a text file with their configurations every time the state changes.
 
 The contents of the `web` directory are hosted on the web server. `read.js` is responsible for parsing the `data.txt` file sent by the Pi, and displaying its contents on the page. `stretch.js` handles variable font implementation (quite inefficiently, too) — it doesn't affect how the system functions, just how it looks.
+
+- - -
+
+There is a brief log of the hardware build available on [my site.](https://craze.co.uk/switchboard+build+log)
